@@ -1,0 +1,16 @@
+name: TopLuckRP
+version: '1.0.0'
+main: fr.rp.topluck.TopLuckRP
+api-version: '1.21'
+author: Baptiste
+description: Suivi du ratio minerais/blocs mines pour detecter la triche
+
+commands:
+  topluck:
+    description: Affiche le ratio de minage d'un joueur (minerais / blocs non-minerais)
+    usage: /topluck <joueur>
+
+permissions:
+  topluckrp.staff:
+    description: Acces a la commande /topluck
+    default: op

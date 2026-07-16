@@ -1,0 +1,41 @@
+# ============================================
+#   Configuration TopLuckRP
+# ============================================
+
+# Blocs consideres comme "minerai" (compte individuellement + dans le total minerais)
+minerais:
+  - COAL_ORE
+  - DEEPSLATE_COAL_ORE
+  - IRON_ORE
+  - DEEPSLATE_IRON_ORE
+  - COPPER_ORE
+  - DEEPSLATE_COPPER_ORE
+  - GOLD_ORE
+  - DEEPSLATE_GOLD_ORE
+  - NETHER_GOLD_ORE
+  - REDSTONE_ORE
+  - DEEPSLATE_REDSTONE_ORE
+  - LAPIS_ORE
+  - DEEPSLATE_LAPIS_ORE
+  - DIAMOND_ORE
+  - DEEPSLATE_DIAMOND_ORE
+  - EMERALD_ORE
+  - DEEPSLATE_EMERALD_ORE
+  - NETHER_QUARTZ_ORE
+  - ANCIENT_DEBRIS
+
+# Blocs consideres comme "non-minerai" pour le denominateur (roche de base creusee normalement)
+non-minerais:
+  - STONE
+  - DEEPSLATE
+  - COBBLESTONE
+  - COBBLED_DEEPSLATE
+  - NETHERRACK
+  - TUFF
+  - GRANITE
+  - DIORITE
+  - ANDESITE
+  - CALCITE
+
+# Nombre minimum de blocs non-minerai mines avant qu'un ratio soit considere fiable/affiche
+seuil-minimum-blocs: 100
